@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>kerio-control-vpn-client</id>
+    <version>9.3.4367</version>
+    <packageSourceUrl>https://github.com/robmoss2k/kerio-control-vpn-client</packageSourceUrl>
+    <owners>chocolatey-community,robmoss2k</owners>
+    <title>Kerio Control VPN Client</title>
+    <authors>GFI Software</authors>
+    <projectUrl>https://www.gfi.com/products-and-solutions/network-security-solutions/kerio-control</projectUrl>
+    <iconUrl>https://www.gfi.com/favicon.ico</iconUrl>
+    <copyright>2021 GFI Software</copyright>
+    <docsUrl>https://manuals.gfi.com/en/kerio/control/content/home.htm</docsUrl>
+    <tags>kerio-control-vpn-client gfi kerio vpn</tags>
+    <summary>The VPN client for Kerio Control</summary>
+    <description>Kerio Control VPN Client allows you to connect to a Kerio Control network.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
